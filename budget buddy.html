@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BudgetBuddy – Personal Expense Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar Content -->
+        <aside class="sidebar">
+            <h2 class="logo">💰 BudgetBuddy</h2>
+            <nav>
+                <ul>
+                    <li class="active">Dashboard</li>
+                    <li> Categories</li>
+                    <li> Report</li>
+                    <li> Settings</li>
+                </ul>
+            </nav>
+        </aside>
+        <!--Main Content-->
+        <main class="main-content">
+            <header class="header">
+                <h1>Personal Experience Tracker</h1>
+                <div class="profile">
+                    <img src="https://i.pravatar.cc/40" alt="User" />
+                    <span>John Doe</span>
+                </div>
+            </header>
+            <!--Hero Content-->
+            <section class="hero">
+                <div class="card green">
+                    <h3>$8,000</h3>
+                    <p>Total Balance</p>
+                </div>
+                <div class="card red">
+                    <h3>$1,900</h3>
+                    <p>Total Spent</p>
+                </div>
+                <div class="card yellow">
+                    <h3>40%</h3>
+                    <p>Savings %</p>
+                </div>
+                <div class="card neutral">
+                    <h3> Food</h3>
+                    <p>Top Spending Category</p>
+                </div>
+            </section>
+            <!--Transaction Table -->
+            <section class="transaction">
+                <h2>Transaction Table</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Category</th>
+                            <th>Amount</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>25/10/2025</td>
+                            <td>Salary</td>
+                            <td class="income">+$3,000</td>
+                            <td>Income</td>
+                        </tr>
+                        <tr>
+                            <td>24/10/2025</td>
+                            <td>Food</td>
+                            <td class="expense">-$900</td>
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>23/10/2025</td>
+                            <td>Transport</td>
+                            <td class="transport">-$300</td>
+                            <td>Expense</td>
+                        </tr>
+                        <tr>
+                            <td>20/10/2025</td>
+                            <td>Bills</td>
+                            <td class="bills">-$1000</td>
+                            <td>Expense</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!--Spending Breakdown-->
+            <section class="breakdown">
+                <h2>Spending Breakdown</h2>
+                <div class="bar">
+                    <div class="food"></div>
+                    <div class="transport"></div>
+                    <div class="bills"></div>
+                </div>
+                <div class="legend">
+                    <span class="food">● Food</span>
+                    <span class="transport">● Transport</span>
+                    <span class="bills">● Bills</span>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
